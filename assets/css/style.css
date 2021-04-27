@@ -14,7 +14,6 @@
 
 body {
     width: 100%;
-    background-color:#EEEEEE;
     margin: 0px;
     font-family: "Rubik", sans-serif;
 }
@@ -61,16 +60,18 @@ header {
     width: 90vw;
     height: fit-content;
     margin: 70px auto;
-    border: 2px solid black;
+    background-color: #d6d6d6;
 }
 video {
     min-width: 400px;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 #leftIntro {
     min-width: 400px;
 }
 h2 {
+    font-family: "Reenie", sans-serif;
+    font-size: 3em;
     text-align: center;
     margin: 100px 0px 50px 0px;
     color: #cd7200;
@@ -97,6 +98,8 @@ h2 {
     flex-direction: column;
 }
 h3 {
+    font-family: "Reenie", sans-serif;
+    font-size: 3em;
     margin: 100px 0px 50px 0px;
     color: #cd7200;
 }
@@ -116,8 +119,9 @@ h3 {
     margin-bottom: 130px;
 }
 h4 {
+    font-family: "Reenie", sans-serif;
+    font-size: 3em;
     color: #cd7200;
-    font-size: 1.8em;
     margin-bottom: 20px;
 }
 .imgBlocks {
