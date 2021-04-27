@@ -8,110 +8,167 @@
     <meta name="description" content="Réalisation site Les Petites Mains de Chadou">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" media="screen" href="assets/css/stylecontact.css">
+    <link rel="stylesheet" media="screen" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/5525ad1b2d.js" crossorigin="anonymous"></script>
     <title>Les Petites Mains de Chadou</title>
 
 </head>
+
 <body>
-<header>
-    <h1>Les Petites Mains de Chadou</h1>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <!--header+nav benjamin-->
+    <header class="d-flex text-center">
+        <h1 class="mt-5">Les Petites Mains de Chadou</h1>
+    </header>
+    <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light offset-lg-4 col-lg-8" id="navPos">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-            <ul class="navbar-nav h4">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Boutique</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Retouches</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Créations</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-shopping-basket"></i></a>
-                </li>
 
-        </div>
-    </nav>
-</header>
-<footer>
-<div class="container-fluide">
-    <div id="bgcolor"class="row p-4">
-        <div class="col-lg-4 text-center">
+                <ul class="navbar-nav h4 d-flex justify-content-around w-100">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Boutique</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Retouches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Créations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-shopping-basket"></i></a>
+                    </li>
+                </ul>
+            </div>
 
-            <ul class="list-unstyled">
-                <li>
-                    <a href="#!" class="text-dark">50 rue des Bobines</a>
-                </li>
-                <li>
-                    <a href="#!" class="text-dark">76600 Le Havre</a>
-                </li>
-                <li>
-                    <a href="#!" class="text-dark">02.35.27.28.29</a>
-                </li>
-                <li>
-                    <a href="#!" class="text-dark">lespetitesmains@gmail.com</a>
-                </li>
-            </ul>
-        </div>
-        <div class="col-lg-4 text-center">
 
-            <ul class="list-unstyled">
-                <li>
-                    <a href="#!" class="text-dark">Du lundi au vendredi</a>
-                </li>
-                <li>
-                    <a href="#!" class="text-dark">9-12h</a>
-                </li>
-                <li>
-                    <a href="#!" class="text-dark">14h18h30</a>
-                </li>
-            </ul>
-        </div>
-
-        <!--Grid column-->
-        <div class="col-lg-4 text-center">
-
-            <ul class="list-unstyled">
-                <li>
-                    <a href="#!" class="text-dark"><img src="assets/images/insta.png" width="40px"></a>
-                </li>
-                <li>
-                    <a href="#!" class="text-dark"><img src="assets/images/fb.png" width="40px"></a>
-                </li>
-            </ul>
-        </div>
-        <!--Grid column-->
+        </nav>
     </div>
-    <!--Grid row-->
-</div>
+
+    <!-- page contact benjamin -->
+    <main class="container-fluid">
+        <div class="row d-flex">
+            <div class="col-4">
+                <div id="map-responsive"> <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.416677385269!2d0.09892291587039756!3d49.49552486358693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e02f2502c74cad%3A0x22be5c10341ad99a!2sLa%20Bobine!5e0!3m2!1sfr!2sfr!4v1619529101939!5m2!1sfr!2sfr"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+            </div>
+            <div class="col-3">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Adresse mail :</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Votre e-mail">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message :</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Votre message"
+                            rows="3"></textarea>
+                    </div>
+                    <div class="listh">
+                        <ul class="list-unstyled">
+                            <li>Du Lundi au vendredi</li>
+                            <li>9h-12h</li>
+                            <li>14h-18h30</li>
+
+
+                        </ul>
+                    </div>
+                </form>
 
 
 
-<!-- Copyright -->
-    <div id="footercolor"class="d-flex justify-content-around p-2 text-decoration-none">
-        <a class="text-dark" href="">mentions légales</a>
-        <a class="text-dark" href="">plan du site</a>
-        <a class="text-dark" href="">FAQ</a>
-        <a class="text-dark" href="">copy right</a>
-    </div>
-</footer>
+            </div>
+        </div>
 
 
-<!-- Copyright -->
+    </main>
+    <!-- page contact -->
+    <!--footer benjamin-->
+    <footer>
+        <!-- Grid container -->
+        <div class="container-fluid mt-5">
+            <div id="bgcolor" class="row p-4">
+                <div class="col-lg-4 text-center">
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-dark">50 rue des Bobines</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">76600 Le Havre</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">02.35.27.28.29</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">lespetitesmains@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 text-center">
+
+                    <ul class="list-unstyled mt-3">
+                        <li>
+                            <a href="#!" class="text-dark">Du lundi au vendredi</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">9-12h</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">14h18h30</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--Grid column-->
+                <div class="col-lg-4 text-center">
+
+                    <ul class="list-unstyled d-flex justify-content-center mt-4">
+                        <li>
+                            <a href="#!" class="text-dark mr-3"><img src="assets/images/insta.png" width="40px"></a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark"><img src="assets/images/fb.png" width="40px"></a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+
+
+
+        <!-- Copyright -->
+        <div id="footercolor" class="d-flex justify-content-around p-2 text-decoration-none">
+            <a class="text-dark" href="">mentions légales</a>
+            <a class="text-dark" href="">plan du site</a>
+            <a class="text-dark" href="">FAQ</a>
+            <a class="text-dark" href="">copy right</a>
+        </div>
+
+
+        <!-- Copyright -->
+
+    </footer>
+
+
+    <!-- Copyright -->
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

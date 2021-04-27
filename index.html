@@ -16,9 +16,11 @@
 
 <body>
     <!--header+nav benjamin-->
-    <header>
-        <h1>Les Petites Mains de Chadou</h1>
-        <nav class="navbar navbar-expand-lg navbar-light">
+    <header class="d-flex text-center">
+        <h1 class="mt-5">Les Petites Mains de Chadou</h1>
+    </header>
+    <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light offset-lg-4 col-lg-8" id="navPos">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,7 +28,8 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                <ul class="navbar-nav h4">
+
+                <ul class="navbar-nav h4 d-flex justify-content-around w-100">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
                     </li>
@@ -45,10 +48,12 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fas fa-shopping-basket"></i></a>
                     </li>
-
+                </ul>
             </div>
+
+
         </nav>
-    </header>
+    </div>
     <!--main gaetan-->
     <main>
         <section>
@@ -229,6 +234,7 @@
 
 
         <!-- Copyright -->
+
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
