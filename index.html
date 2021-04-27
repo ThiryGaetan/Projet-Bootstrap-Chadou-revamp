@@ -1,31 +1,52 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Réalisation site Les Petites Mains de Chadou">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet"  media="screen" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" media="screen" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/5525ad1b2d.js" crossorigin="anonymous"></script>
     <title>Les Petites Mains de Chadou</title>
 
 </head>
+
 <body>
     <!--header+nav benjamin-->
     <header>
-        <h1>Les petites Mains de Chadou</h1>
-        <p class="slogan">"De fil en aiguille, l'âme et l'esprit brillent"</p>
-        <nav>
-            <ul>
-                <li><a class="navig" href="#">Boutique</a></li>
-                <li><a class="navig" href="#">Retouches</a></li>
-                <li><a class="navig" href="#">Créations</a></li>
-                <li><a class="navig" href="#">Contact</a></li>
-                <li><a class="burger" href="#"><i class="fas fa-bars" id="navIcon"></i></a></li>
-            </ul>
+        <h1>Les Petites Mains de Chadou</h1>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              
+              <ul class="navbar-nav h4">
+                <li class="nav-item active"> 
+                  <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Boutique</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Retouches</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Créations</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-shopping-basket"></i></a>
+                  </li>
+
+            </div>
         </nav>
-        <a class="shop" href="#"><i class="fas fa-shopping-bag"></i></a>
     </header>
     <!--main gaetan-->
     <main>
@@ -122,28 +143,79 @@
     </main>
     <!--footer benjamin-->
     <footer>
-        <div class="socialNetworks">
-            <a href="#"><i class="fab fa-facebook" id="facebook"></i></a>
-            <a href="#"><i class="fab fa-instagram" id="instagram"></i></a>
-            <p>Ouvert du lundi au vendredi de 9h à 12h et de 14h à 18h30</span></p>
-            <p>Et le samedi de 9h à 12h et de 14h à 17h.</p>
-        </div>
-        <div class="adress">
-            <p>50 rue des Bobines</p>
-            <p>76600 Le Havre</p>
-            <p><i class="fas fa-phone"></i> 02.35.27.28.29 </p>
-            <p><i class="far fa-envelope"></i> <a href="#"> lespetitesmains@gmail.com</a></p>
-        </div>
-        <div class="info">
-            <ul>
-                <li><a href="#">Mentions Légales</a></li>
-                <li><a href="#">Plan du site</a>
-                <li><a href="#">FAQ</a></li>
-                <li id="copyright"> Team "La Manu"© / 2021 </li>
-            </ul>
-        </div>
+        <footer>
+            <!-- Grid container -->
+            <div class="container-fluide">
+                <div id="bgcolor"class="row p-4">
+                    <div class="col-lg-4 text-center">
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!" class="text-dark">50 rue des Bobines</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-dark">76600 Le Havre</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-dark">02.35.27.28.29</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-dark">lespetitesmains@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 text-center">
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!" class="text-dark">Du lundi au vendredi</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-dark">9-12h</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-dark">14h18h30</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 text-center">
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!" class="text-dark"><img src="assets/images/insta.png" width="40px"></a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-dark"><img src="assets/images/fb.png" width="40px"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+
+
+
+            <!-- Copyright -->
+                <div id="footercolor"class="d-flex justify-content-around p-2 text-decoration-none">
+                    <a class="text-dark" href="">mentions légales</a>
+                    <a class="text-dark" href="">plan du site</a>
+                    <a class="text-dark" href="">FAQ</a>
+                    <a class="text-dark" href="">copy right</a>
+                </div>
+
+           
+            <!-- Copyright -->
+        </footer>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
