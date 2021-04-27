@@ -16,38 +16,44 @@
 
 <body>
     <!--header+nav benjamin-->
-    <header>
-        <h1>Les Petites Mains de Chadou</h1>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              
-              <ul class="navbar-nav h4">
-                <li class="nav-item active"> 
-                  <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Boutique</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Retouches</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Créations</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-shopping-basket"></i></a>
-                  </li>
-
-            </div>
-        </nav>
+    <header class="d-flex text-center">
+        <h1 class="mt-5">Les Petites Mains de Chadou</h1>
     </header>
+    <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light offset-lg-4 col-lg-8" id="navPos">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+                <ul class="navbar-nav h4 d-flex justify-content-around w-100">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Boutique</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Retouches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Créations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-shopping-basket"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </nav>
+    </div>
     <!--main gaetan-->
     <main>
         <div id="scrollTop">
@@ -152,72 +158,71 @@
     </main>
     <!--footer benjamin-->
     <footer>
-        <footer>
-            <!-- Grid container -->
-            <div class="container-fluide">
-                <div id="bgcolor"class="row p-4">
-                    <div class="col-lg-4 text-center">
+        <!-- Grid container -->
+        <div class="container-fluid">
+            <div id="bgcolor" class="row p-4">
+                <div class="col-lg-4 text-center">
 
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#!" class="text-dark">50 rue des Bobines</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-dark">76600 Le Havre</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-dark">02.35.27.28.29</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-dark">lespetitesmains@gmail.com</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 text-center">
-
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#!" class="text-dark">Du lundi au vendredi</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-dark">9-12h</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-dark">14h18h30</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!--Grid column-->
-                    <div class="col-lg-4 text-center">
-
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#!" class="text-dark"><img src="assets/images/insta.png" width="40px"></a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-dark"><img src="assets/images/fb.png" width="40px"></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-dark">50 rue des Bobines</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">76600 Le Havre</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">02.35.27.28.29</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">lespetitesmains@gmail.com</a>
+                        </li>
+                    </ul>
                 </div>
-                <!--Grid row-->
+                <div class="col-lg-4 text-center">
+
+                    <ul class="list-unstyled mt-3">
+                        <li>
+                            <a href="#!" class="text-dark">Du lundi au vendredi</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">9-12h</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">14h18h30</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--Grid column-->
+                <div class="col-lg-4 text-center">
+
+                    <ul class="list-unstyled d-flex justify-content-center mt-4">
+                        <li>
+                            <a href="#!" class="text-dark mr-3"><img src="assets/images/insta.png" width="40px"></a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark"><img src="assets/images/fb.png" width="40px"></a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
             </div>
+            <!--Grid row-->
+        </div>
 
 
 
-            <!-- Copyright -->
-                <div id="footercolor"class="d-flex justify-content-around p-2 text-decoration-none">
-                    <a class="text-dark" href="">mentions légales</a>
-                    <a class="text-dark" href="">plan du site</a>
-                    <a class="text-dark" href="">FAQ</a>
-                    <a class="text-dark" href="">copy right</a>
-                </div>
+        <!-- Copyright -->
+        <div id="footercolor" class="d-flex justify-content-around p-2 text-decoration-none">
+            <a class="text-dark" href="">mentions légales</a>
+            <a class="text-dark" href="">plan du site</a>
+            <a class="text-dark" href="">FAQ</a>
+            <a class="text-dark" href="">copy right</a>
+        </div>
 
-           
-            <!-- Copyright -->
-        </footer>
+
+        <!-- Copyright -->
+
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
