@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Reenie";
-    src: url("../fonts/ReenieBeanie-Regular.ttf");
+    src: url("../fonts/ReenieBeanie-Regular.ttf"); /* chemin pour importer police*/
 }
 
 @font-face {
