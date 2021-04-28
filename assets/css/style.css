@@ -1,17 +1,14 @@
 /* Définition des polices personnalisées */
-
 @font-face {
     font-family: "Reenie";
     src: url("../fonts/ReenieBeanie-Regular.ttf");
 }
-
 @font-face {
     font-family: "Rubik";
     src: url("../fonts/Rubik-VariableFont_wght.ttf");
 }
 
 /* Eléments principaux de la page */
-
 body {
     width: 100%;
     margin: 0px;
@@ -19,7 +16,6 @@ body {
 }
 
 /* Header, benjamin*/
-
 h1 {
     font-family: "Reenie";
     color: rgb(0, 0, 0);
@@ -30,7 +26,6 @@ h1 {
     font-weight: 400;
     margin: 0px auto;
 }
-
 header {
     background-image: url("../images/headerPic.jpg");
     background-size: cover;
@@ -41,14 +36,13 @@ header {
 }
 
 /* Menu Navigation, benjamin */
-
 #navPos {
+    z-index: 1;
     position: absolute;
     top: 350px;
 }
 
 /* Corps, gaetan */
-
 main {
     overflow: hidden;
 }
@@ -64,11 +58,12 @@ main {
     width: 90vw;
     height: fit-content;
     margin: 70px auto;
-    background-color: #d6d6d6;
+    /* border: 2px solid #0BB0A0; */
+    background-color: #fffde9;
 }
 video {
     min-width: 400px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 #leftIntro {
     min-width: 400px;
@@ -130,22 +125,19 @@ h4 {
     max-height: 130px;
     margin: 10px;
 }
-
-
 .marginBlocks {
     margin-bottom: 120px;
 }
 
-
 /* Footer, benjamin */
-
 #bgcolor {
-    background-color: #C2C2C2;
+    background-color: #f1efd2;
+}
+#footercolor {
+    background-color: #f1efd2;
 }
 
-#footercolor {
-    background-color: #E2E2E2;
-}
+/* queries mobile */
 @media screen and (max-width: 500px) {
     video {
         min-width: 0px;
@@ -155,5 +147,12 @@ h4 {
     }
     #scrollTop {
         display: none;
+    }
+}
+@media screen and (max-width: 991px) {
+    #listNavQuery {
+        background-color: #e7e7e7;
+        width: fit-content !important;
+        padding-right: 7%;
     }
 }
